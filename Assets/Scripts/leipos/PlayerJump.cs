@@ -9,13 +9,12 @@ public class PlayerJump : MonoBehaviour
     private bool isGrounded;
     public Transform groundCheckPoint;
     public LayerMask whatIsGround;
-    // Start is called before the first frame update
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .2f, whatIsGround);
