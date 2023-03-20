@@ -5,26 +5,53 @@ using UnityEngine;
 public class PlayerJump : MonoBehaviour
 {
     public Rigidbody2D rb;
+    public Animator anim;
+
     public float jumpForce;
-    private bool isGrounded;
     public Transform groundCheckPoint;
+    public Vector2 boxDimensions;
     public LayerMask whatIsGround;
+
+    public bool isGrounded;
+    private bool canJump;
 
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
     {
-        isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .2f, whatIsGround);
-
         if (Input.GetButtonDown("Jump"))
         {
-            if (isGrounded)
-            {
-                rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-            }
+
+            canJump = true;
+
+            isGrounded = Physics2D.OverlapBox(groundCheckPoint.position, boxDimensions, 0, whatIsGround);
+            anim.SetBool("run", isGrounded);
         }
+    }
+
+    private void FixedUpdate()
+    {
+        if(canJump && isGrounded)
+        {
+            Saltar();
+        }
+
+        canJump = false;
+    }
+
+    private void Saltar()
+    {
+        rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+        isGrounded = false;
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireCube(groundCheckPoint.position, boxDimensions);
     }
 }

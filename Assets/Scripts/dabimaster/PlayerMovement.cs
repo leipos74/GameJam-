@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -21,10 +22,12 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.A))
         {
+            gameObject.GetComponent<SpriteRenderer>().flipX = true;
             direction = -1;
         }
         if (Input.GetKeyDown(KeyCode.D))
         {
+            gameObject.GetComponent<SpriteRenderer>().flipX = false;
             direction = 1;
         }
     }
