@@ -7,6 +7,8 @@ public class PlayerMovement : MonoBehaviour
     public float speed;
     private int direction;
 
+    public int ingredientId = -1;
+
     private void Start()
     {
         direction = 1;
@@ -24,6 +26,14 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.D))
         {
             direction = 1;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("cheese"))
+        {
+            ingredientId = 0;
         }
     }
 }

@@ -25,8 +25,6 @@ public class PlayerJump : MonoBehaviour
             {
                 rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             }
-            
-
         }
     }
 }
