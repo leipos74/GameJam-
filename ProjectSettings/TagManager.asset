@@ -15,6 +15,7 @@ TagManager:
   - Plataform
   - Bullet
   - Enemy
+  - BounceWall
   layers:
   - Default
   - TransparentFX

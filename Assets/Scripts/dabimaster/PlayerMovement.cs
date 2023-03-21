@@ -22,7 +22,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
-        anim.SetBool("run", true);
         direction = 1;
         sr = GetComponent<SpriteRenderer>();
     }
@@ -30,18 +29,8 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         gameObject.transform.position = new Vector3(gameObject.transform.position.x + speed * direction * Time.fixedDeltaTime, gameObject.transform.position.y, gameObject.transform.position.z); 
+        
 
-
-        if (Input.GetKey(KeyCode.A))
-        {
-            sr.flipX = true;
-            direction = -1;
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            sr.flipX = false;
-            direction = 1;
-        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -84,6 +73,7 @@ public class PlayerMovement : MonoBehaviour
             Destroy(collision.gameObject);
         }
     }
+
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.tag == "Plataform")
@@ -91,12 +81,25 @@ public class PlayerMovement : MonoBehaviour
             transform.parent = other.transform;
         }
 
+        if (other.gameObject.tag == "BounceWall" && direction == 1)
+        {
+            sr.flipX = true;
+            direction = -1;
+        }
+
+        else if (other.gameObject.tag == "BounceWall" && direction == -1)
+        {
+            sr.flipX = false;
+            direction = 1;
+        }
     }
+
     private void OnCollisionExit2D(Collision2D other)
     {
         if (other.gameObject.tag == "Plataform")
         {
             transform.parent = null;
         }
+
     }
 }
