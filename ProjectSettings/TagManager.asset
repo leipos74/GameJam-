@@ -4,8 +4,17 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - player
-  - cheese
+  - Cheese
+  - Letuce
+  - Tomato
+  - Bread1
+  - Bread2
+  - Egg
+  - Bacon
+  - Hamburguer
+  - Plataform
+  - Bullet
+  - Enemy
   layers:
   - Default
   - TransparentFX

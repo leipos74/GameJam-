@@ -23,13 +23,14 @@ public class PlayerJump : MonoBehaviour
 
     void Update()
     {
+
+        isGrounded = Physics2D.OverlapBox(groundCheckPoint.position, boxDimensions, 0, whatIsGround);
+        anim.SetBool("run", isGrounded);
+
         if (Input.GetButtonDown("Jump"))
         {
 
             canJump = true;
-
-            isGrounded = Physics2D.OverlapBox(groundCheckPoint.position, boxDimensions, 0, whatIsGround);
-            anim.SetBool("run", isGrounded);
         }
     }
 
