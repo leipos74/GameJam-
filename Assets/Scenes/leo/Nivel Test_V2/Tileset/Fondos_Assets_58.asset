@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Fondos_Assets_58
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -728005543, guid: aea6ffad140e21a4ab8eb9c0f98fb5bb, type: 3}
+  m_Sprite: {fileID: -728005543, guid: 9baec773b80a93043bd9764622d988e4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
