@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/dabimaster/Gym.unity
     guid: 4627a0b56416ae24488a870c1776ba42
   - enabled: 1
+    path: Assets/Scenes/dabimaster/Options.unity
+    guid: de2dd7fddf7e6d447bd70a952b22c2e8
+  - enabled: 1
     path: Assets/Scenes/dabimaster/Credits.unity
     guid: f0587f035157acb4eb14b71ac61a2159
   - enabled: 1

@@ -16,6 +16,7 @@ TagManager:
   - Bullet
   - Enemy
   - BounceWall
+  - Win
   layers:
   - Default
   - TransparentFX

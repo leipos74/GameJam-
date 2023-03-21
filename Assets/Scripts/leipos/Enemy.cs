@@ -9,7 +9,9 @@ public class Enemy : MonoBehaviour
     public float bulletSpeedY;
 
     public GameObject enemy;
-    public GameObject Player;
+    public GameObject player;
+
+    public PlayerMovement p;
     public GameObject bulletPrefab;
     public GameObject spawnPlayer;
     public Animator animator;
@@ -30,7 +32,7 @@ public class Enemy : MonoBehaviour
         counter += Time.deltaTime;
 
 
-        if (transform.position.x <= Player.transform.position.x)
+        if (transform.position.x <= player.transform.position.x)
         {
             sr.flipX = true;
             if (counter > spawnTime)
@@ -61,6 +63,7 @@ public class Enemy : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            p.punctuation += 324;
             Destroy(gameObject);
         }
     }
