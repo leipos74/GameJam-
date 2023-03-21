@@ -475,7 +475,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1233.2988, y: -777.0162}
+  m_Offset: {x: 1233.2988, y: -4714.5605}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -486,7 +486,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 22550.695, y: 1555.0323}
+  m_Size: {x: 22550.695, y: 9447.348}
   m_EdgeRadius: 0
 --- !u!4 &138145472
 Transform:
@@ -916,6 +916,7 @@ MonoBehaviour:
   spawnTime: 2
   bulletSpeedX: -4
   bulletSpeedY: 4
+  dispawnTime: 0
   enemy: {fileID: 1423820443}
   player: {fileID: 1970308370}
   p: {fileID: 1970308377}

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 0f18418273382f14c84096934c358a31
+=======
+guid: 3adfbc864e71e1e41aff79d3b44d5c33
+>>>>>>> d24e0b10829c315d178743f6eb6e370dd7e8e6cd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +51,11 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   spritePixelsToUnits: 100
+=======
+  spritePixelsToUnits: 48
+>>>>>>> d24e0b10829c315d178743f6eb6e370dd7e8e6cd
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -107,6 +115,7 @@ TextureImporter:
       name: arquitecto_sprite_sheet_0
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 110
         y: 0
         width: 240
@@ -131,6 +140,11 @@ TextureImporter:
         x: 590
         y: 0
         width: 240
+=======
+        x: 0
+        y: 0
+        width: 480
+>>>>>>> d24e0b10829c315d178743f6eb6e370dd7e8e6cd
         height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -139,8 +153,34 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 61760ff42addd8644b33330ede631adc
       internalID: -2051010507
+=======
+      spriteID: 5fdd58ad44460f7458fa9c91b9bd7988
+      internalID: -777555905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arquitecto_sprite_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89908543c836c5945ae3eaaa216034fb
+      internalID: 143339679
+>>>>>>> d24e0b10829c315d178743f6eb6e370dd7e8e6cd
       vertices: []
       indices: 
       edges: []
@@ -156,8 +196,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+<<<<<<< HEAD
       arquitecto_sprite_sheet_1: -2051010507
       arquitecto_sprite_sheet_0: 1109326340
+=======
+      arquitecto_sprite_sheet_1: 143339679
+      arquitecto_sprite_sheet_0: -777555905
+>>>>>>> d24e0b10829c315d178743f6eb6e370dd7e8e6cd
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

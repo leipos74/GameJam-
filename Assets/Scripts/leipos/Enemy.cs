@@ -5,8 +5,11 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public float spawnTime;
+    private float counter;
     public float bulletSpeedX;
     public float bulletSpeedY;
+    public float dispawnTime;
+    private float count2;
 
     public GameObject enemy;
     public GameObject player;
@@ -16,7 +19,6 @@ public class Enemy : MonoBehaviour
     public GameObject spawnPlayer;
     public Animator animator;
 
-    private float counter;
     private SpriteRenderer sr;
 
     // Start is called before the first frame update
@@ -30,6 +32,7 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         counter += Time.deltaTime;
+        count2 += Time.deltaTime;
 
 
         if (transform.position.x <= player.transform.position.x)
@@ -56,12 +59,16 @@ public class Enemy : MonoBehaviour
                 counter = 0;
             }
         }
+        if (count2 > dispawnTime)
+        {
+            Destroy(gameObject);
+        }
 
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player" )
         {
             p.punctuation += 324;
             Destroy(gameObject);
