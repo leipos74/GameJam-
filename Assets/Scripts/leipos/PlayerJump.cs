@@ -36,7 +36,7 @@ public class PlayerJump : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(canJump && isGrounded)
+        if(canJump && isGrounded && PlayerMovement.Instance.canMove)
         {
             Saltar();
         }
