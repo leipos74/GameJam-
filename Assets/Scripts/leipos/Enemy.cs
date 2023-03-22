@@ -19,8 +19,6 @@ public class Enemy : MonoBehaviour
 
     public PlayerMovement p;
     public GameObject bulletPrefab;
-    public GameObject spawnPlayer;
-    public Animator animator;
 
     private SpriteRenderer sr;
 

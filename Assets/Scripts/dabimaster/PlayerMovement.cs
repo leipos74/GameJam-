@@ -17,12 +17,12 @@ public class PlayerMovement : MonoBehaviour
     public Animator anim;
     public int ingredientId = -1;
 
-    public GameObject spawnPlayer;
-
     public float punctuation;
 
     AudioSource audioSource;
     public AudioClip architectDeath;
+    public AudioClip pickUp;
+    public AudioClip wallTouch;
 
     public Punctuation points;
 
@@ -57,48 +57,56 @@ public class PlayerMovement : MonoBehaviour
         {
             ingredientId = 0;
             punctuation = 100;
+            audioSource.PlayOneShot(pickUp);
             points.SumarPoints(punctuation);
         }
         else if (collision.CompareTag("Hamburguer"))
         {
             ingredientId = 1;
             punctuation = 300;
+            audioSource.PlayOneShot(pickUp);
             points.SumarPoints(punctuation);
         }
         else if (collision.CompareTag("Letuce"))
         {
             ingredientId = 2;
             punctuation = 150;
+            audioSource.PlayOneShot(pickUp);
             points.SumarPoints(punctuation);
         }
         else if (collision.CompareTag("Cheese"))
         {
             ingredientId = 3;
             punctuation = 320;
+            audioSource.PlayOneShot(pickUp);
             points.SumarPoints(punctuation);
         }
         else if (collision.CompareTag("Bacon"))
         {
             ingredientId = 4;
             punctuation = 250;
+            audioSource.PlayOneShot(pickUp);
             points.SumarPoints(punctuation);
         }
         else if (collision.CompareTag("Tomato"))
         {
             ingredientId = 5;
             punctuation = 110;
+            audioSource.PlayOneShot(pickUp);
             points.SumarPoints(punctuation);
         }
         else if (collision.CompareTag("Egg"))
         {
             ingredientId = 6;
             punctuation = 500;
+            audioSource.PlayOneShot(pickUp);
             points.SumarPoints(punctuation);
         }
         else if (collision.CompareTag("Bread2"))
         {
             ingredientId = 7;
             punctuation = 100;
+            audioSource.PlayOneShot(pickUp);
             points.SumarPoints(punctuation);
         }
         else if (collision.CompareTag("Bullet"))
@@ -109,6 +117,10 @@ public class PlayerMovement : MonoBehaviour
         else if (collision.CompareTag("Enemy"))
         {
             audioSource.PlayOneShot(architectDeath);
+        }
+        else if (collision.CompareTag("Win"))
+        {
+            SceneManager.LoadScene("Win"); ;
         }
     }
 
@@ -121,12 +133,14 @@ public class PlayerMovement : MonoBehaviour
 
         if (other.gameObject.tag == "BounceWall" && direction == 1)
         {
+            audioSource.PlayOneShot(wallTouch);
             sr.flipX = true;
             direction = -1;
         }
 
         else if (other.gameObject.tag == "BounceWall" && direction == -1)
         {
+            audioSource.PlayOneShot(wallTouch);
             sr.flipX = false;
             direction = 1;
         }

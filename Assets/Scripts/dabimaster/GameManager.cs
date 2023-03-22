@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
 
     public void Play()
     {
-        SceneManager.LoadScene("Gym");
+        SceneManager.LoadScene("Level1");
     }
 
     public void Options()
