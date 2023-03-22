@@ -1,0 +1,518 @@
+fileFormatVersion: 2
+guid: 68ef6e926f8e1164d946d52b2f8fc15e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nivel_Assets_0
+      rect:
+        serializedVersion: 2
+        x: 3017
+        y: 2238
+        width: 1604
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5a55816d74ea64a993628569d94fc4
+      internalID: 1410471949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_Assets_34
+      rect:
+        serializedVersion: 2
+        x: 2858
+        y: 1598
+        width: 166
+        height: 486
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e861bb5a5096114bb6abd93e5f33cec
+      internalID: 1504182468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_Assets_35
+      rect:
+        serializedVersion: 2
+        x: 3178
+        y: 1598
+        width: 165
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720568e033ae64a4aa976a496b90ab24
+      internalID: -641245524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_Assets_36
+      rect:
+        serializedVersion: 2
+        x: 3497
+        y: 1598
+        width: 166
+        height: 486
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57af0a2bf77edf5439f35df66daa12a5
+      internalID: -525569609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_Assets_37
+      rect:
+        serializedVersion: 2
+        x: 3817
+        y: 1598
+        width: 166
+        height: 486
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5da0677cb11d7438154ae92a20d857
+      internalID: -1115344034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_Assets_38
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1117
+        width: 2248
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ad077974db6594fb3c0b77a621120e
+      internalID: -437802019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_Assets_49
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 737
+        width: 2240
+        height: 326
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1989efc4674c9d1458c59ef2130014ad
+      internalID: 1521769619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_Assets_70
+      rect:
+        serializedVersion: 2
+        x: 2858
+        y: 788
+        width: 644
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600251e4cec6a2a42a89ccdbf602d055
+      internalID: 1059938263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_Assets_71
+      rect:
+        serializedVersion: 2
+        x: 3656
+        y: 797
+        width: 376
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00f952e4622b1d4eba9628e5e075620
+      internalID: -1402830367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_Assets_72
+      rect:
+        serializedVersion: 2
+        x: 4216
+        y: 797
+        width: 417
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f664f98b66b005a4eab24ceca43042f8
+      internalID: 1275393321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_Assets_74
+      rect:
+        serializedVersion: 2
+        x: 3178
+        y: 477
+        width: 165
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe36cc2df7b97534aa66bd32218abc04
+      internalID: -881668900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_Assets_75
+      rect:
+        serializedVersion: 2
+        x: 3437
+        y: 158
+        width: 165
+        height: 485
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32a757ab30d4f8468bb6fb0c317bbd1
+      internalID: -759700106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_Assets_78
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 158
+        width: 96
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74fd82f7ea8c164fb109e8e4bf5aa98
+      internalID: 1647737572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_Assets_79
+      rect:
+        serializedVersion: 2
+        x: 3056
+        y: 158
+        width: 278
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e323e2726fff98c43aa49de363f9d912
+      internalID: 86117153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_Assets_16
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1465
+        width: 2256
+        height: 329
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 2, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285bf88f8adad99488d75562bb24e230
+      internalID: 765118113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Nivel_Assets_35: -641245524
+      Nivel_Assets_71: -1402830367
+      Nivel_Assets_36: -525569609
+      Nivel_Assets_22: -422857965
+      Nivel_Assets_33: 1572332817
+      Nivel_Assets_50: 506550492
+      Nivel_Assets_66: -1447391074
+      Nivel_Assets_24: 321544761
+      Nivel_Assets_19: -8695098
+      Nivel_Assets_38: -437802019
+      Nivel_Assets_44: 129632446
+      Nivel_Assets_6: -1540867560
+      Nivel_Assets_12: 255539439
+      Nivel_Assets_47: -1414064730
+      Nivel_Assets_49: 1521769619
+      Nivel_Assets_1: 568775033
+      Nivel_Assets_7: 384605187
+      Nivel_Assets_27: -296074177
+      Nivel_Assets_9: 108315742
+      Nivel_Assets_0: 1410471949
+      Nivel_Assets_57: -1477466468
+      Nivel_Assets_74: -881668900
+      Nivel_Assets_59: -1884303730
+      Nivel_Assets_58: -977410927
+      Nivel_Assets_69: -1216399934
+      Nivel_Assets_76: -1582497549
+      Nivel_Assets_67: -356560536
+      Nivel_Assets_31: 1861756863
+      Nivel_Assets_75: -759700106
+      Nivel_Assets_52: -1597126828
+      Nivel_Assets_8: 2024433763
+      Nivel_Assets_10: -1989715875
+      Nivel_Assets_55: -1308260166
+      Nivel_Assets_72: 1275393321
+      Nivel_Assets_73: 864653287
+      Nivel_Assets_48: -1451379995
+      Nivel_Assets_61: 1463894583
+      Nivel_Assets_3: 1208404361
+      Nivel_Assets_65: -829206158
+      Nivel_Assets_53: -2136475730
+      Nivel_Assets_25: 164592968
+      Nivel_Assets_60: 1827601044
+      Nivel_Assets_23: -631463178
+      Nivel_Assets_37: -1115344034
+      Nivel_Assets_46: 1182183015
+      Nivel_Assets_39: -1581213306
+      Nivel_Assets_62: 927636708
+      Nivel_Assets_68: 1562027813
+      Nivel_Assets_29: -222715550
+      Nivel_Assets_18: 1923930536
+      Nivel_Assets_13: 1818554968
+      Nivel_Assets_34: 1504182468
+      Nivel_Assets_80: 736626940
+      Nivel_Assets_15: -753948558
+      Nivel_Assets_2: 746830553
+      Nivel_Assets_42: -1051373706
+      Nivel_Assets_70: 1059938263
+      Nivel_Assets_11: -1451839921
+      Nivel_Assets_4: 117487464
+      Nivel_Assets_14: -1883971003
+      Nivel_Assets_21: 545384940
+      Nivel_Assets_30: 2135557292
+      Nivel_Assets_28: -602720604
+      Nivel_Assets_5: 262414775
+      Nivel_Assets_51: 1671494339
+      Nivel_Assets_45: 1181351050
+      Nivel_Assets_20: 815492148
+      Nivel_Assets_40: -244143057
+      Nivel_Assets_79: 86117153
+      Nivel_Assets_16: 765118113
+      Nivel_Assets_26: 334852847
+      Nivel_Assets_32: -546096959
+      Nivel_Assets_63: -34661368
+      Nivel_Assets_17: -1090073035
+      Nivel_Assets_56: 819427292
+      Nivel_Assets_64: 1121255598
+      Nivel_Assets_54: 421023758
+      Nivel_Assets_77: 1213790070
+      Nivel_Assets_43: 1960984087
+      Nivel_Assets_41: -2113913441
+      Nivel_Assets_78: 1647737572
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
