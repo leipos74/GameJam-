@@ -127,8 +127,6 @@ MonoBehaviour:
   player: {fileID: 0}
   p: {fileID: 0}
   bulletPrefab: {fileID: 4710661175534555819, guid: 92419a65f3c7a7d4cb02e77641c89820, type: 3}
-  spawnPlayer: {fileID: 0}
-  animator: {fileID: 0}
 --- !u!95 &4871075618654019111
 Animator:
   serializedVersion: 4
@@ -161,7 +159,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: bef9458a68da2a2429f5de0e751995e1, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.277
+  m_Volume: 0.641
   m_Pitch: 1
   Loop: 0
   Mute: 0

@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -2781,7 +2781,6 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Grua_1_112: -252989084
       Grua_1_96: -651502479
       Grua_1_106: 1339305557
       Grua_1_24: 911606058
@@ -2860,13 +2859,13 @@ TextureImporter:
       Grua_1_4: 1697683907
       Grua_1_42: 1907477271
       Grua_1_17: 533586285
-      Grua_1_104: 37946324
       Grua_1_108: -1242290713
       Grua_1_60: 1981497102
-      Grua_1_92: 1827961530
+      Grua_1_104: 37946324
       Grua_1_56: 1795548110
       Grua_1_46: 1469353900
       Grua_1_98: -1076753651
+      Grua_1_92: 1827961530
       Grua_1_34: -1003650321
       Grua_1_0: 173119619
       Grua_1_23: -1095968582
@@ -2906,6 +2905,7 @@ TextureImporter:
       Grua_1_6: -72496140
       Grua_1_69: 1093485720
       Grua_1_99: 400616917
+      Grua_1_112: -252989084
       Grua_1_102: 1630098303
       Grua_1_22: -1267995944
   spritePackingTag: 

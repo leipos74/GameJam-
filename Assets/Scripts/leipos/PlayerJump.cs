@@ -15,10 +15,14 @@ public class PlayerJump : MonoBehaviour
     public bool isGrounded;
     private bool canJump;
 
+    AudioSource audioSource;
+    public AudioClip jump;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -29,7 +33,6 @@ public class PlayerJump : MonoBehaviour
 
         if (Input.GetButtonDown("Jump"))
         {
-
             canJump = true;
         }
     }
@@ -46,6 +49,7 @@ public class PlayerJump : MonoBehaviour
 
     private void Saltar()
     {
+        audioSource.PlayOneShot(jump);
         rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         isGrounded = false;
     }

@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -2821,8 +2821,8 @@ TextureImporter:
       Grua_1_55: -945133027
       Grua_1_109: 657787910
       Grua_1_114: 1015671042
-      Grua_1_87: 1251858296
       Grua_1_7: 611198144
+      Grua_1_87: 1251858296
       Grua_1_115: 913187999
       Grua_1_28: 364470883
       Grua_1_110: 1959912339
