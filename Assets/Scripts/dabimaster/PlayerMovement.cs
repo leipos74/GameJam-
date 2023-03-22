@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     public float speed;
     public int direction;
     private SpriteRenderer sr;
+    public bool canMove;
 
     public Animator anim;
     public int ingredientId = -1;
@@ -32,6 +33,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
+        canMove = false;
         direction = 1;
         sr = GetComponent<SpriteRenderer>();
         audioSource = GetComponent<AudioSource>();
@@ -39,7 +41,14 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        gameObject.transform.position = new Vector3(gameObject.transform.position.x + speed * direction * Time.fixedDeltaTime, gameObject.transform.position.y, gameObject.transform.position.z); 
+        if (Input.GetKey(KeyCode.E))
+        {
+            canMove = true;
+        }
+        if (canMove)
+        {
+            gameObject.transform.position = new Vector3(gameObject.transform.position.x + speed * direction * Time.fixedDeltaTime, gameObject.transform.position.y, gameObject.transform.position.z);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
