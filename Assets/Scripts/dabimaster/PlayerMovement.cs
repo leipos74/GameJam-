@@ -20,6 +20,9 @@ public class PlayerMovement : MonoBehaviour
 
     public float punctuation;
 
+    AudioSource audioSource;
+    public AudioClip architectDeath;
+
     public Punctuation points;
 
     private void Awake()
@@ -31,6 +34,7 @@ public class PlayerMovement : MonoBehaviour
     {
         direction = 1;
         sr = GetComponent<SpriteRenderer>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void FixedUpdate()
@@ -92,6 +96,10 @@ public class PlayerMovement : MonoBehaviour
         {
             Destroy(collision.gameObject);
             SceneManager.LoadScene("gameOver");
+        }
+        else if (collision.CompareTag("Enemy"))
+        {
+            audioSource.PlayOneShot(architectDeath);
         }
     }
 

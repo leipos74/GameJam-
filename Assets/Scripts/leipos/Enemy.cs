@@ -11,6 +11,9 @@ public class Enemy : MonoBehaviour
     public float dispawnTime;
     private float count2;
 
+    AudioSource audioSource;
+    public AudioClip shot;
+
     public GameObject enemy;
     public GameObject player;
 
@@ -26,6 +29,7 @@ public class Enemy : MonoBehaviour
     {
         sr = GetComponent<SpriteRenderer>();
         bulletPrefab.transform.position = transform.position;
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -43,6 +47,7 @@ public class Enemy : MonoBehaviour
                 bulletPrefab.GetComponent<SpriteRenderer>().enabled = true;
                 bulletPrefab.GetComponent<SpriteRenderer>().flipX = true;
                 GameObject bullet = (GameObject)Instantiate(bulletPrefab, enemy.transform, true);
+                audioSource.PlayOneShot(shot);
                 bullet.GetComponent<Rigidbody2D>().velocity = new Vector2(bulletSpeedY, bullet.GetComponent<Rigidbody2D>().velocity.y);
                 counter = 0;
             }
@@ -52,16 +57,14 @@ public class Enemy : MonoBehaviour
             sr.flipX = false;
             if (counter > spawnTime)
             {
+                audioSource.PlayOneShot(shot);
                 bulletPrefab.GetComponent<SpriteRenderer>().enabled = true;
                 bulletPrefab.GetComponent<SpriteRenderer>().flipX = false;
                 GameObject bullet = (GameObject)Instantiate(bulletPrefab, enemy.transform, true);
+                audioSource.PlayOneShot(shot);
                 bullet.GetComponent<Rigidbody2D>().velocity = new Vector2(bulletSpeedX, bullet.GetComponent<Rigidbody2D>().velocity.y);
                 counter = 0;
             }
-        }
-        if (count2 > dispawnTime)
-        {
-            Destroy(gameObject);
         }
 
     }
