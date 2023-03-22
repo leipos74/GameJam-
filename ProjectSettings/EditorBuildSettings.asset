@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/dabimaster/gameOver.unity
     guid: ef188c837f83e3e4e867c390534dd0b0
+  - enabled: 1
+    path: Assets/Scenes/leo/Nivel Test_V2/Nivel Test_V2.unity
+    guid: e7e92cecddf515748afdd45aa391e2ee
   m_configObjects: {}
