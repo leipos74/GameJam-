@@ -5,10 +5,22 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/leipos/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/dabimaster/Menu.unity
+    guid: a6554f80fc5c89541a9e5b03a290d419
   - enabled: 1
-    path: Assets/Scenes/dabimaster/escena.unity
+    path: Assets/Scenes/dabimaster/Gym.unity
     guid: 4627a0b56416ae24488a870c1776ba42
+  - enabled: 1
+    path: Assets/Scenes/dabimaster/Options.unity
+    guid: de2dd7fddf7e6d447bd70a952b22c2e8
+  - enabled: 1
+    path: Assets/Scenes/dabimaster/Credits.unity
+    guid: f0587f035157acb4eb14b71ac61a2159
+  - enabled: 1
+    path: Assets/Scenes/dabimaster/gameOver.unity
+    guid: ef188c837f83e3e4e867c390534dd0b0
   m_configObjects: {}
